@@ -287,7 +287,6 @@ assets:
   - name: remastered/obj/PO08_PLAYER.a.it/-0.png
   - name: remastered/obj/PO08_PLAYER.a.sp/-0.png
   - name: remastered/obj/PO08_PLAYER.a.us/-0.png
-
   package: kh2_sixth
   platform: pc
   method: copy
