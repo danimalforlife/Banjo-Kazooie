@@ -297,7 +297,7 @@ assets:
   package: kh2_first
   method: copy
   source:
-  - name: BanjoKazooie/-0kh1f.dds
+  - name: BanjoKazooie/-0.dds
 
 
 
