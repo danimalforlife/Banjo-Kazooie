@@ -99,10 +99,10 @@ assets:
 
 #Roxas Models#
 - name: obj/P_EX110.mdlx
-  multi:
-  - name: obj/H_EX510.mdlx
-  - name: obj/P_EX110_NPC_PAJAMAS.mdlx
-  - name: obj/H_EX510_PAJAMAS.mdlx
+#  multi:
+#  - name: obj/H_EX510.mdlx
+#  - name: obj/P_EX110_NPC_PAJAMAS.mdlx
+#  - name: obj/H_EX510_PAJAMAS.mdlx
   package: kh2_first
   method: copy
   source:
