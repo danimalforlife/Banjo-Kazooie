@@ -392,8 +392,8 @@ assets:
 
 ###Battle Quotes###
 - name: voice/us/battle/tt0_sora.win32.scd
-  multi:
-  - name: voice/us/battle/tt0_roxas.win32.scd
+#  multi:
+#  - name: voice/us/battle/tt0_roxas.win32.scd
   package: kh2_first
   platform: pc
   method: copy
