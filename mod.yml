@@ -54,6 +54,11 @@ assets:
   - name: obj/P_EX100_WM.mdlx
   - name: obj/P_EX100_LAST.mdlx
   - name: obj/P_EX100_HTLF_BTL.mdlx
+  - name: obj/P_EX110_BTLF.mdlx
+  - name: obj/P_EX120.mdlx
+  - name: obj/P_EX120_NPC_RED.mdlx
+  - name: obj/P_EX120_NPC_GREEN.mdlx
+  - name: obj/P_EX120_NPC_BLUE.mdlx
   package: kh2_sixth
   method: copy
   source:
@@ -85,12 +90,26 @@ assets:
   - name: obj/H_EX500_XM_TRIF.mdlx
   - name: obj/H_EX500_XM_KH1F.mdlx
   - name: obj/H_EX500_XM_ULTF.mdlx
+  - name: obj/H_ZZ010.mdlx
   package: kh2_fifth
   method: copy
   source:
   - name: BanjoKazooie/banjokazooie.mdlx
 
 
+#Roxas Models#
+- name: obj/P_EX110.mdlx
+  multi:
+  - name: obj/H_EX510.mdlx
+  - name: obj/P_EX110_NPC_PAJAMAS.mdlx
+  - name: obj/H_EX510_PAJAMAS.mdlx
+  package: kh2_first
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooie.mdlx
+
+
+###Textures###
 #Normal Sora Textures#
 - name: remastered/obj/P_EX100.mdlx/-0.dds
   multi:
@@ -104,6 +123,11 @@ assets:
   - name: remastered/obj/_EX100_SIDECAR/-0.dds
   - name: remastered/obj/P_EX100_WM.mdlx/-0.dds
   - name: remastered/obj/P_EX100_LAST/-0.dds
+  - name: remastered/obj/P_EX110_BTLF/-0.dds
+  - name: remastered/obj/P_EX120_BTLF/-0.dds
+  - name: remastered/obj/P_EX120_NPC_RED/-0.dds
+  - name: remastered/obj/P_EX120_NPC_GREEN/-0.dds
+  - name: remastered/obj/P_EX120_NPC_BLUE/-0.dds
   package: kh2_sixth
   method: copy
   source:
@@ -193,7 +217,8 @@ assets:
   multi:
   - name: remastered/obj/H_EX500_NM.mdlx/-0.dds
   - name: remastered/obj/H_EX500_TR.mdlx/-0.dds
-  - name: remastered/obj/H_EX500_XM/-0.dds
+  - name: remastered/obj/H_EX500_XM.mdlx/-0.dds
+  - name: remastered/obj/H_ZZ010.mdlx/-0.dds
   package: kh2_fifth
   method: copy
   source:
@@ -263,6 +288,18 @@ assets:
   source:
   - name: BanjoKazooie/-0kh1f.dds
 
+###Roxas Textures###
+- name: remastered/obj/P_EX110.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/H_EX510.mdlx/-0.dds
+  - name: remastered/obj/P_EX110_NPC_PAJAMAS/-0.dds
+  - name: remastered/obj/H_EX510_PAJAMAS/-0.dds
+  package: kh2_first
+  method: copy
+  source:
+  - name: BanjoKazooie/-0kh1f.dds
+
+
 
 ###Hud Icons###
 #Hud - .png#
@@ -326,7 +363,8 @@ assets:
   - name: remastered/obj/P_EX100_WI_ULTF.a.us/-10.dds
   - name: remastered/obj/P_EX110.a.us/-0.dds
   - name: remastered/obj/P_EX110_BTLF.a.us/-0.dds
-  - name: remastered/obj/P_EX120.a.us/-8.dds
+  - name: remastered/obj/P_EX120.a.us/-0.dds
+  - name: remastered/obj/P_EX110_BTLF.a.us/-8.dds
   - name: remastered/obj/P_LK100.a.us/-5.dds
   - name: remastered/obj/P_LK000.a.us/-8.dds
   package: kh2_sixth
@@ -350,3 +388,36 @@ assets:
   method: copy
   source:
   - name: BanjoKazooie/bkhudXM.dds
+
+
+###Battle Quotes###
+- name: voice/us/battle/tt0_sora.win32.scd
+  multi:
+  - name: voice/us/battle/tt0_roxas.win32.scd
+  package: kh2_first
+  platform: pc
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooie.scd
+
+
+- name: voice/us/battle/al0_sora.win32.scd
+  multi:
+  - name: voice/us/battle/bb0_sora.win32.scd
+  - name: voice/us/battle/ca0_sora.win32.scd
+  - name: voice/us/battle/dc0_sora.win32.scd
+  - name: voice/us/battle/eh0_sora.win32.scd
+  - name: voice/us/battle/hb0_sora.win32.scd
+  - name: voice/us/battle/he0_sora.win32.scd
+  - name: voice/us/battle/lk0_sora.win32.scd
+  - name: voice/us/battle/lm0_sora.win32.scd
+  - name: voice/us/battle/mu0_sora.win32.scd
+  - name: voice/us/battle/nm0_sora.win32.scd
+  - name: voice/us/battle/po0_sora.win32.scd
+  - name: voice/us/battle/tr0_sora.win32.scd
+  - name: voice/us/battle/wi0_sora.win32.scd
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooie.scd
