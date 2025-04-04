@@ -13,7 +13,7 @@ assets:
 - name: obj/P_EX100.mdlx
   multi:
   - name: obj/P_EX100_BTLF.mdlx
-  - name: obj/P_EX100_MAGF.mdlx
+#  - name: obj/P_EX100_MAGF.mdlx
   - name: obj/P_EX100_TRIF.mdlx
 #  - name: obj/P_EX100_KH1F.mdlx
   - name: obj/P_EX100_ULTF.mdlx
@@ -21,7 +21,7 @@ assets:
   - name: obj/P_EX100_NPC.mdlx
   - name: obj/P_EX100_NM.mdlx
   - name: obj/P_EX100_NM_BTLF.mdlx
-  - name: obj/P_EX100_NM_MAGF.mdlx
+#  - name: obj/P_EX100_NM_MAGF.mdlx
   - name: obj/P_EX100_NM_TRIF.mdlx
 #  - name: obj/P_EX100_NM_KH1F.mdlx
   - name: obj/P_EX100_NM_ULTF.mdlx
@@ -30,21 +30,21 @@ assets:
   - name: obj/P_EX100_TR_LIGHTCYCLE.mdlx
   - name: obj/P_EX100_TR.mdlx
   - name: obj/P_EX100_TR_BTLF.mdlx
-  - name: obj/P_EX100_TR_MAGF.mdlx
+#  - name: obj/P_EX100_TR_MAGF.mdlx
   - name: obj/P_EX100_TR_TRIF.mdlx
 #  - name: obj/P_EX100_TR_KH1F.mdlx
   - name: obj/P_EX100_TR_ULTF.mdlx
   - name: obj/P_EX100_TR_HTLF.mdlx
   - name: obj/P_EX100_WI.mdlx
   - name: obj/P_EX100_WI_BTLF.mdlx
-  - name: obj/P_EX100_WI_MAGF.mdlx
+#  - name: obj/P_EX100_WI_MAGF.mdlx
   - name: obj/P_EX100_WI_TRIF.mdlx
 #  - name: obj/P_EX100_WI_KH1F.mdlx
   - name: obj/P_EX100_WI_ULTF.mdlx
   - name: obj/P_EX100_WI_HTLF.mdlx
   - name: obj/P_EX100_XM.mdlx
   - name: obj/P_EX100_XM_BTLF.mdlx
-  - name: obj/P_EX100_XM_MAGF.mdlx
+#  - name: obj/P_EX100_XM_MAGF.mdlx
   - name: obj/P_EX100_XM_TRIF.mdlx
 #  - name: obj/P_EX100_XM_KH1F.mdlx
   - name: obj/P_EX100_XM_ULTF.mdlx
