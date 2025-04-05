@@ -106,7 +106,7 @@ assets:
   - name: obj/H_EX500_XM_TRIF.mdlx
   - name: obj/H_EX500_XM_KH1F.mdlx
   - name: obj/H_EX500_XM_ULTF.mdlx
-  - name: obj/H_ZZ010.mdlx
+ # - name: obj/H_ZZ010.mdlx
   package: kh2_fifth
   method: copy
   source:
