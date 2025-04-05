@@ -45,14 +45,22 @@ assets:
   - name: obj/P_EX100_LAST.mdlx
   - name: obj/P_EX100_HTLF_BTL.mdlx
   - name: obj/P_EX110_BTLF.mdlx
-#  - name: obj/P_EX120.mdlx
-#  - name: obj/P_EX120_NPC_RED.mdlx
-#  - name: obj/P_EX120_NPC_GREEN.mdlx
-#  - name: obj/P_EX120_NPC_BLUE.mdlx
   package: kh2_sixth
   method: copy
   source:
   - name: BanjoKazooie/banjokazooie.mdlx
+
+
+#Sora KH1 Clothes#
+- name: obj/P_EX120.mdlx
+  multi:
+  - name: obj/P_EX120_NPC_RED.mdlx
+  - name: obj/P_EX120_NPC_GREEN.mdlx
+  - name: obj/P_EX120_NPC_BLUE.mdlx
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooieKH1CLOTHES.mdlx
 
 #Sora Limit Form Models#
 - name: obj/P_EX100_KH1F.mdlx
@@ -106,11 +114,18 @@ assets:
   - name: obj/H_EX500_XM_TRIF.mdlx
   - name: obj/H_EX500_XM_KH1F.mdlx
   - name: obj/H_EX500_XM_ULTF.mdlx
-#  - name: obj/H_ZZ010.mdlx
   package: kh2_fifth
   method: copy
   source:
   - name: BanjoKazooie/banjokazooieHD.mdlx
+
+
+#Sora High-Poly KH1 Clothes Model#
+- name: obj/H_EX790.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooieHDKH1CLOTHES.mdlx
 
 
 #Roxas Models#
@@ -311,6 +326,15 @@ assets:
   method: copy
   source:
   - name: BanjoKazooie/-0kh1f.dds
+
+
+#High Poly Sora KH1 Clothes Model Texture#
+- name: remastered/obj/H_EX790.mdlx/-0.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0.dds
+
 
 ###Roxas Textures###
 - name: remastered/obj/P_EX110.mdlx/-0.dds
