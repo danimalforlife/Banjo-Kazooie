@@ -80,7 +80,7 @@ assets:
   - name: BanjoKazooie/banjokazooieMAGF.mdlx
 
 
-#High-Poly Models#
+#Sora High-Poly Models#
 - name: obj/H_EX500.mdlx
   multi:
   - name: obj/H_EX500_BTLF.mdlx
@@ -110,19 +110,27 @@ assets:
   package: kh2_fifth
   method: copy
   source:
-  - name: BanjoKazooie/banjokazooie.mdlx
+  - name: BanjoKazooie/banjokazooieHD.mdlx
 
 
 #Roxas Models#
 - name: obj/P_EX110.mdlx
   multi:
-  - name: obj/H_EX510.mdlx
   - name: obj/P_EX110_NPC_PAJAMAS.mdlx
-  - name: obj/H_EX510_PAJAMAS.mdlx
   package: kh2_first
   method: copy
   source:
   - name: BanjoKazooie/banjokazooieroxas.mdlx
+
+
+#Roxas High-Poly Models#
+- name: obj/H_EX510.mdlx
+  multi:
+  - name: obj/H_EX510_PAJAMAS.mdlx
+  package: kh2_first
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooieroxasHD.mdlx
 
 
 ###Textures###
