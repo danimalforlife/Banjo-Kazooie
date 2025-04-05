@@ -45,10 +45,10 @@ assets:
   - name: obj/P_EX100_LAST.mdlx
   - name: obj/P_EX100_HTLF_BTL.mdlx
   - name: obj/P_EX110_BTLF.mdlx
-  - name: obj/P_EX120.mdlx
-  - name: obj/P_EX120_NPC_RED.mdlx
-  - name: obj/P_EX120_NPC_GREEN.mdlx
-  - name: obj/P_EX120_NPC_BLUE.mdlx
+#  - name: obj/P_EX120.mdlx
+#  - name: obj/P_EX120_NPC_RED.mdlx
+#  - name: obj/P_EX120_NPC_GREEN.mdlx
+#  - name: obj/P_EX120_NPC_BLUE.mdlx
   package: kh2_sixth
   method: copy
   source:
@@ -106,7 +106,7 @@ assets:
   - name: obj/H_EX500_XM_TRIF.mdlx
   - name: obj/H_EX500_XM_KH1F.mdlx
   - name: obj/H_EX500_XM_ULTF.mdlx
- # - name: obj/H_ZZ010.mdlx
+#  - name: obj/H_ZZ010.mdlx
   package: kh2_fifth
   method: copy
   source:
