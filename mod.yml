@@ -46,12 +46,17 @@ assets:
   - name: obj/P_EX100_HTLF_BTL.mdlx
   - name: obj/PO06_PLAYER.mdlx
   - name: obj/PO07_PLAYER.mdlx
-  - name: obj/PO08_PLAYER.mdlx
   package: kh2_sixth
   method: copy
   source:
   - name: BanjoKazooie/banjokazooie.mdlx
 
+#Sora Balloon Bounce Model#
+- name: obj/PO08_PLAYER.mdlx
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooieBounce.mdlx
 
 #Sora KH1 Clothes#
 - name: obj/P_EX120.mdlx
