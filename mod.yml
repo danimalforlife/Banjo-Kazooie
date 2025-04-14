@@ -45,6 +45,8 @@ assets:
   - name: obj/P_EX100_LAST.mdlx
   - name: obj/P_EX100_HTLF_BTL.mdlx
   - name: obj/PO06_PLAYER.mdlx
+  - name: obj/PO07_PLAYER.mdlx
+  - name: obj/PO08_PLAYER.mdlx
   package: kh2_sixth
   method: copy
   source:
@@ -170,6 +172,8 @@ assets:
   - name: remastered/obj/P_EX120_NPC_GREEN/-0.dds
   - name: remastered/obj/P_EX120_NPC_BLUE/-0.dds
   - name: remastered/obj/PO06_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/PO07_PLAYER.mdlx/-0.dds
+  - name: remastered/obj/PO08_PLAYER.mdlx/-0.dds
   package: kh2_sixth
   method: copy
   source:
