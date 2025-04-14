@@ -44,7 +44,6 @@ assets:
   - name: obj/P_EX100_WM.mdlx
   - name: obj/P_EX100_LAST.mdlx
   - name: obj/P_EX100_HTLF_BTL.mdlx
-
   - name: obj/PO06_PLAYER.mdlx
   package: kh2_sixth
   method: copy
@@ -159,6 +158,7 @@ assets:
   - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-0.dds
   - name: remastered/obj/P_EX100_TR_LIGHTCYCLE.mdlx/-0.dds
   - name: remastered/obj/P_EX100_TR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_WI.mdlx/-0.dds
   - name: remastered/obj/P_EX100_XM/-0.dds
   - name: remastered/obj/P_EX100_MEMO/-0.dds
   - name: remastered/obj/_EX100_SIDECAR/-0.dds
