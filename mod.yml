@@ -44,7 +44,8 @@ assets:
   - name: obj/P_EX100_WM.mdlx
   - name: obj/P_EX100_LAST.mdlx
   - name: obj/P_EX100_HTLF_BTL.mdlx
-  - name: obj/P_EX110_BTLF.mdlx
+
+  - name: obj/PO06_PLAYER.mdlx
   package: kh2_sixth
   method: copy
   source:
@@ -132,6 +133,7 @@ assets:
 - name: obj/P_EX110.mdlx
   multi:
   - name: obj/P_EX110_NPC_PAJAMAS.mdlx
+  - name: obj/P_EX110_BTLF.mdlx
   package: kh2_first
   method: copy
   source:
@@ -167,6 +169,7 @@ assets:
   - name: remastered/obj/P_EX120_NPC_RED/-0.dds
   - name: remastered/obj/P_EX120_NPC_GREEN/-0.dds
   - name: remastered/obj/P_EX120_NPC_BLUE/-0.dds
+  - name: remastered/obj/PO06_PLAYER.mdlx/-0.dds
   package: kh2_sixth
   method: copy
   source:
@@ -380,7 +383,7 @@ assets:
 
 
 #Hud - .dds#
-- name: remastered/obj/obj/P_EX100.a.us/-8.dds
+- name: remastered/obj/P_EX100.a.us/-8.dds
   multi:
   - name: remastered/obj/AL14_PLAYER.a.us/-8.dds
   - name: remastered/obj/AL14_PLAYER.a.us/-8.dds
