@@ -400,27 +400,16 @@ assets:
   - name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
   - name: remastered/obj/P_EX100_HTLF.a.us/-3.dds
   - name: remastered/obj/P_EX100_NM.a.us/-8.dds
-  - name: remastered/obj/P_EX100_TR.a.us/-8.dds
-  - name: remastered/obj/P_EX100_WI.a.us/-8.dds
   - name: remastered/obj/P_EX100_NM_BTLF.a.us/-4.dds
-  - name: remastered/obj/P_EX100_TR_BTLF.a.us/-4.dds
-  - name: remastered/obj/P_EX100_WI_BTLF.a.us/-4.dds
   - name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
   - name: remastered/obj/P_EX100_NM_KH1F.a.us/-9.dds
-  - name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
-  - name: remastered/obj/P_EX100_WI_KH1F.a.us/-9.dds
   - name: remastered/obj/P_EX100_MAGF.a.us/-2.dds
   - name: remastered/obj/P_EX100_NM_MAGF.a.us/-2.dds
-  - name: remastered/obj/P_EX100_TR_MAGF.a.us/-2.dds
-  - name: remastered/obj/P_EX100_WI_MAGF.a.us/-2.dds
   - name: remastered/obj/P_EX100_TRIF.a.us/-5.dds
   - name: remastered/obj/P_EX100_NM_TRIF.a.us/-5.dds
-  - name: remastered/obj/P_EX100_TR_TRIF.a.us/-5.dds
-  - name: remastered/obj/P_EX100_WI_TRIF.a.us/-5.dds
   - name: remastered/obj/P_EX100_ULTF.a.us/-10.dds
   - name: remastered/obj/P_EX100_NM_ULTF.a.us/-10.dds
-  - name: remastered/obj/P_EX100_TR_ULTF.a.us/-10.dds
-  - name: remastered/obj/P_EX100_WI_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX100_NM_HTLF.a.us/-3.dds
   - name: remastered/obj/P_EX110.a.us/-0.dds
   - name: remastered/obj/P_EX110_BTLF.a.us/-0.dds
   - name: remastered/obj/P_EX120.a.us/-0.dds
@@ -432,6 +421,39 @@ assets:
   method: copy
   source:
   - name: BanjoKazooie/bkhud.dds
+
+
+#HUD - Space Paranoids#
+- name: remastered/obj/P_EX100_TR.a.us/-8.dds
+  multi:
+  - name: remastered/obj/P_EX100_TR_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_TR_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_TR_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_TR_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX100_TR_HTLF.a.us/-3.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: BanjoKazooie/bkhudTR.dds
+
+
+#HUD - Timeless River#
+- name: remastered/obj/P_EX100_WI.a.us/-8.dds
+  multi:
+  - name: remastered/obj/P_EX100_WI_BTLF.a.us/-4.dds
+  - name: remastered/obj/P_EX100_WI_KH1F.a.us/-9.dds
+  - name: remastered/obj/P_EX100_WI_MAGF.a.us/-2.dds
+  - name: remastered/obj/P_EX100_WI_TRIF.a.us/-5.dds
+  - name: remastered/obj/P_EX100_WI_ULTF.a.us/-10.dds
+  - name: remastered/obj/P_EX100_WI_HTLF.a.us/-3.dds
+  package: kh2_sixth
+  platform: pc
+  method: copy
+  source:
+  - name: BanjoKazooie/bkhudWI.dds
+
 
 
 #Hud - .dds - XM#
