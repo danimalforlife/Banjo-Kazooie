@@ -43,13 +43,19 @@ assets:
   - name: obj/P_EX100_SIDECAR.mdlx
   - name: obj/P_EX100_WM.mdlx
   - name: obj/P_EX100_LAST.mdlx
-  - name: obj/P_EX100_HTLF_BTL.mdlx
   - name: obj/PO06_PLAYER.mdlx
   - name: obj/PO07_PLAYER.mdlx
   package: kh2_sixth
   method: copy
   source:
   - name: BanjoKazooie/banjokazooie.mdlx
+
+#Shadow Sora (Vexen Fight)
+- name: obj/P_EX100_HTLF_BTL.mdlx
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooieHTLFBTL.mdlx
 
 #Sora Balloon Bounce Model#
 - name: obj/PO08_PLAYER.mdlx
@@ -145,6 +151,12 @@ assets:
   source:
   - name: BanjoKazooie/banjokazooieroxas.mdlx
 
+#Shadow Roxas Model
+- name: obj/P_EX130.mdlx
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/banjokazooieroxasShadow.mdlx
 
 #Roxas High-Poly Models#
 - name: obj/H_EX510.mdlx
@@ -256,6 +268,7 @@ assets:
   - name: remastered/obj/P_EX100_TR_HTLF.mdlx/-0.dds
   - name: remastered/obj/P_EX100_WI_HTLF.mdlx/-0.dds
   - name: remastered/obj/P_EX100_XM_HTLF.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_HTLF_BTL.mdlx/-0.dds
   package: kh2_sixth
   method: copy
   source:
@@ -360,6 +373,11 @@ assets:
   - name: BanjoKazooie/-0.dds
 
 
+- name: remastered/obj/P_EX130.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: BanjoKazooie/-0htlf.dds
 
 ###Hud Icons###
 #Hud - .png#
